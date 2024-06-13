@@ -1,6 +1,8 @@
 
 
 const multer = require('multer');
+const fs = require('fs-extra');
+
 
 // Set up storage for uploaded files
 const storage = multer.diskStorage({
@@ -14,5 +16,5 @@ const storage = multer.diskStorage({
 
 // Create the multer instance
 const upload = multer({ storage: storage });
-
+fs.ensureDirSync('uploads')
 module.exports = upload;
