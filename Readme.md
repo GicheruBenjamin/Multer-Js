@@ -1,6 +1,15 @@
 
 ### Cmd
-cd multer
-npm i
+
+```
+git clone git@github.com:GicheruBenjamin/Multer-Js.git
+
+cd multer-js
+
+npm install 
+
 npm run dev
-browser: localhost:5000 
+
+``` 
+
+###### On the browser visit http://localhost:5000
